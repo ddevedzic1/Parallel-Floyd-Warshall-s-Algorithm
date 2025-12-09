@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\algorithm_runner.cpp" />
+    <ClCompile Include="src\io_handler.cpp" />
+    <ClCompile Include="src\bench_runner.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="src\graph_generator.cpp" />
+    <ClCompile Include="src\fw_baseline.cpp" />
+    <ClCompile Include="src\fw_baseline_parallel.cpp" />
+    <ClCompile Include="src\fw_baseline_parallel_simd.cpp" />
+    <ClCompile Include="src\fw_blocking_parallel.cpp" />
+    <ClCompile Include="src\fw_blocking_parallel_simd.cpp" />
+    <ClCompile Include="src\fw_blocking_generalized_baseline.cpp" />
+    <ClCompile Include="src\fw_blocking_generalized_unroll.cpp" />
+    <ClCompile Include="src\fw_blocking_generalized_simd.cpp" />
+    <ClCompile Include="src\fw_blocking_generalized_parallel.cpp" />
+    <ClCompile Include="src\fw_blocking_generalized_parallel_simd.cpp" />
+    <ClCompile Include="src\fw_blocking_simd.cpp" />
+    <ClCompile Include="src\fw_blocking_unroll.cpp" />
+    <ClCompile Include="src\fw_blocking_baseline.cpp" />
+    <ClCompile Include="src\fw_baseline_unroll.cpp" />
+    <ClCompile Include="src\fw_baseline_simd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\algorithm_runner.h" />
+    <ClInclude Include="include\constants.h" />
+    <ClInclude Include="include\io_handler.h" />
+    <ClInclude Include="include\utils.h" />
+    <ClInclude Include="include\graph_generator.h" />
+    <ClInclude Include="include\fw_baseline.h" />
+    <ClInclude Include="include\fw_baseline_parallel.h" />
+    <ClInclude Include="include\fw_baseline_parallel_simd.h" />
+    <ClInclude Include="include\fw_blocking_parallel.h" />
+    <ClInclude Include="include\fw_blocking_parallel_simd.h" />
+    <ClInclude Include="include\fw_blocking_generalized_baseline.h" />
+    <ClInclude Include="include\fw_blocking_generalized_unroll.h" />
+    <ClInclude Include="include\fw_blocking_generalized_simd.h" />
+    <ClInclude Include="include\fw_blocking_generalized_parallel.h" />
+    <ClInclude Include="include\fw_blocking_generalized_parallel_simd.h" />
+    <ClInclude Include="include\fw_blocking_simd.h" />
+    <ClInclude Include="include\fw_blocking_unroll.h" />
+    <ClInclude Include="include\fw_blocking_baseline.h" />
+    <ClInclude Include="include\fw_baseline_unroll.h" />
+    <ClInclude Include="include\fw_baseline_simd.h" />
+  </ItemGroup>
+</Project>
