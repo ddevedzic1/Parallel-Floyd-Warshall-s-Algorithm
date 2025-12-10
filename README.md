@@ -1,6 +1,6 @@
 # Parallel All-Pairs Shortest Path
 
-15 verzija mplementacije Floyd-Warshall-ovog algoritma sa različitim optimizacijama: loop unrolling, klasični blocking, generalni bloking, SIMD (AVX2) i OpenMP paralelizacija i mnoge druge.
+15 verzija implementacije Floyd-Warshall-ovog algoritma sa različitim optimizacijama: loop unrolling, klasični blocking, generalni bloking, SIMD (AVX2), OpenMP paralelizacija i mnoge druge.
 
 ## Sistemski zahtjevi
 
